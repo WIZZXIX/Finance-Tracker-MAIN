@@ -1,13 +1,12 @@
-import { useState } from 'react'
+// src/App.jsx
+import AppRoutes from "./routes";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className='text-2xl font-bold'>MINI PROJECT</h1>
-    </>
-  )
+    <div>
+      <AppRoutes />
+    </div>
+  );
 }
 
-export default App
+export default App;
